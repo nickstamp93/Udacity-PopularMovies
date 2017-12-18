@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.nickstamp.dev.popularmovies.MainActivity">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMovieGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingLeft="@dimen/bottomBar_size"
+            android:paddingStart="@dimen/bottomBar_size" />
+
+        <ProgressBar
+            android:id="@+id/pbLoadingIndicator"
+            android:layout_width="@dimen/progress_bar_large"
+            android:layout_height="@dimen/progress_bar_large"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/colorAccent"
+            android:indeterminateTintMode="src_in"
+            android:visibility="invisible" />
+
+        <com.roughike.bottombar.BottomBar
+            android:id="@+id/bottomBar"
+            android:layout_width="@dimen/bottomBar_size"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            app:bb_activeTabColor="@color/colorAccent"
+            app:bb_inActiveTabColor="@color/inActive_tabColor"
+            app:bb_tabXmlResource="@xml/bottom_bar"
+            app:bb_tabletMode="true"
+            app:bb_titleTypeFace="fonts/roboto.ttf" />
+
+    </FrameLayout>
+
+
+</layout>

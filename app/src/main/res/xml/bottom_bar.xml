@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_upcoming"
+        icon="@drawable/ic_upcoming"
+        title="Upcoming" />
+    <tab
+        id="@+id/tab_popular"
+        icon="@drawable/ic_popular"
+        title="Popular" />
+    <tab
+        id="@+id/tab_top_rated"
+        icon="@drawable/ic_top_rated"
+        title="Top rated" />
+    <tab
+        id="@+id/tab_favorite"
+        icon="@drawable/ic_heart_filled"
+        title="Favorites" />
+</tabs>

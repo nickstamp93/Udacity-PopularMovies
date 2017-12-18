@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_horizontal_margin_small">8dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+
+    <dimen name="backdrop_height">360dp</dimen>
+    <dimen name="poster_top_margin">320dp</dimen>
+
+    <dimen name="poster_width">180dp</dimen>
+    <dimen name="poster_height">270dp</dimen>
+
+    <dimen name="view_margin">16dp</dimen>
+
+    <dimen name="headline_padding">16dp</dimen>
+    <dimen name="video_item_padding">12dp</dimen>
+
+    <dimen name="review_card_margin">8dp</dimen>
+
+    <dimen name="video_text_size">20sp</dimen>
+    <dimen name="review_text_size">18sp</dimen>
+    <dimen name="review_author_text_size">20sp</dimen>
+
+    <dimen name="movie_title_size">28sp</dimen>
+    <dimen name="movie__original_title_size">22sp</dimen>
+    <dimen name="movie_extra_info_size">22sp</dimen>
+    <dimen name="movie_plot_size">20sp</dimen>
+
+</resources>
